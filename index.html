@@ -1,0 +1,95 @@
+<!-- Trivia Game -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trivia Game</title>
+        ​
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        ​<!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">​
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    
+    <div style= "background: url(https://linksofcommunion.files.wordpress.com/2013/06/background.jpg)">
+        <body>            
+            <div class="col-lg-12">
+                <div class = "container text-center">
+                    <div class "card">
+                        <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.otcpas.com%2Fwp-content%2Fuploads%2Ftrivia.png&f=1" alt="TriviaPic" 
+                        id="TitleLogo" style="width: 250px; height: 150px; margin:5px;">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class = "card bg-dark">
+                            <h3 class="card-title bg-warning" id="timerCount">So you think you're a car expert? Give it a try!</h3>                        
+                            <div class="card-body bg-warning">
+                                <h4 class="card-text"id="question"> Question:</h4>
+                                <hr>
+                                <table class="table table-hover">
+                                    <tbody>
+                                    <tr>
+                                    <td class="card-text"id="answer1"> Answer Option 1</td>
+                                    </tr>
+                                    <tr>
+                                    <td class="card-text"id="answer2"> Answer Option 2</td>
+                                    </tr>
+                                    <tr>
+                                    <td class="card-text"id="answer3"> Answer Option 3</td>
+                                    </tr>
+                                    <tr>
+                                    <td class="card-text"id="answer4"> Answer Option 4</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class"col-md-4">
+                        <div class="card bg-light" style="width:400px" id="bannerBg">
+                            <div class="card-body text-center">
+                                <h4  class="card-title" id="answerTitle">Answer</h4>
+                                <p class="card-text" id="answerText">Correct or incorrect?</p>
+                            </div>
+                            <img class="card-img-bottom container" src="assets/images/Trivia button.gif" alt="card image" id="answerImage" style="width: 200px;">
+                            <p class="card-text" id="correctCount">Correct: 0</p>
+                            <p class="card-text" id="incorrectCount">Incorrect: 0</p>
+                        </div>
+                    </div>                   
+                </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="container text-white text-center">
+                                    <h5> Do you know car brands and history? </h5> 
+                                    <hr>
+                                    <h5> How much do you know about cars? Challenge yourself! </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <footer class="py-1 bg-dark fixed-bottom">
+                            <div class="container">
+                                <p class="m-0 text-center text-white">&copy Copyright 2018 Al Oshiro</p>
+                            </div>
+                    </footer>
+                </div>
+            </div>            
+        </body>          
+    </div>
+    
+ 
+    <script type="text/javascript" src="assets/javascript/apps.js"></script>
+</html>
